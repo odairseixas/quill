@@ -17,6 +17,7 @@ import { ColorClass, ColorStyle } from './formats/color';
 import { FontClass, FontStyle } from './formats/font';
 import { SizeClass, SizeStyle } from './formats/size';
 import { WeightClass, WeightStyle } from './formats/weight';
+import { LineHeightClass, LineHeightStyle } from './formats/lineheight';
 
 import Bold from './formats/bold';
 import Italic from './formats/italic';
@@ -55,6 +56,7 @@ Quill.register(
     'attributors/class/font': FontClass,
     'attributors/class/size': SizeClass,
     'attributors/class/weight': WeightClass,
+    'attributors/class/lineheight': LineHeightClass,
 
     'attributors/style/align': AlignStyle,
     'attributors/style/background': BackgroundStyle,
@@ -63,6 +65,7 @@ Quill.register(
     'attributors/style/font': FontStyle,
     'attributors/style/size': SizeStyle,
     'attributors/style/weight': WeightStyle,
+    'attributors/style/lineheight': LineHeightStyle,
   },
   true
 );
