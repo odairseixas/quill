@@ -61,9 +61,9 @@ Quill.register(
     'attributors/style/direction': DirectionStyle,
     'attributors/style/font': FontStyle,
     'attributors/style/size': SizeStyle,
-    'attributors/style/weight': WeightStyle,
+    'attributors/style/weight': WeightStyle
   },
-  true,
+  true
 );
 
 Quill.register(
@@ -105,9 +105,9 @@ Quill.register(
     'ui/picker': Picker,
     'ui/icon-picker': IconPicker,
     'ui/color-picker': ColorPicker,
-    'ui/tooltip': Tooltip,
+    'ui/tooltip': Tooltip
   },
-  true,
+  true
 );
 
 export default Quill;

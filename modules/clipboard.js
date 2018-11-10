@@ -45,7 +45,7 @@ const ATTRIBUTE_ATTRIBUTORS = [AlignAttribute, DirectionAttribute].reduce(
     memo[attr.keyName] = attr;
     return memo;
   },
-  {},
+  {}
 );
 
 const STYLE_ATTRIBUTORS = [
