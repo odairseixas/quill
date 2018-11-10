@@ -1,8 +1,13 @@
-import { Scope, StyleAttributor } from 'parchment';
+import { Scope, StyleAttributor, ClassAttributor } from 'parchment';
+
+const WeightClass = new ClassAttributor('weight', 'ql-weight', {
+  scope: Scope.INLINE,
+  whitelist: ['normal', 'bold'],
+});
 
 const WeightStyle = new StyleAttributor('weight', 'font-weight', {
   scope: Scope.INLINE,
-  whitelist: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  whitelist: ['400', '700'],
 });
 
-export default WeightStyle;
+export { WeightClass, WeightStyle };

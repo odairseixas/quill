@@ -19,7 +19,6 @@ import { ColorStyle } from '../formats/color';
 import { DirectionAttribute, DirectionStyle } from '../formats/direction';
 import { FontStyle } from '../formats/font';
 import { SizeStyle } from '../formats/size';
-import { WeightStyle } from '../formats/weight';
 
 const debug = logger('quill:clipboard');
 
@@ -55,7 +54,6 @@ const STYLE_ATTRIBUTORS = [
   DirectionStyle,
   FontStyle,
   SizeStyle,
-  WeightStyle,
 ].reduce((memo, attr) => {
   memo[attr.keyName] = attr;
   return memo;
