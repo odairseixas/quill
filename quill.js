@@ -16,6 +16,7 @@ import { BackgroundClass, BackgroundStyle } from './formats/background';
 import { ColorClass, ColorStyle } from './formats/color';
 import { FontClass, FontStyle } from './formats/font';
 import { SizeClass, SizeStyle } from './formats/size';
+import { WeightStyle } from './formats/weight';
 
 import Bold from './formats/bold';
 import Italic from './formats/italic';
@@ -60,6 +61,7 @@ Quill.register(
     'attributors/style/direction': DirectionStyle,
     'attributors/style/font': FontStyle,
     'attributors/style/size': SizeStyle,
+    'attributors/style/weight': WeightStyle,
   },
   true,
 );
